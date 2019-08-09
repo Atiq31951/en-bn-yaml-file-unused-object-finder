@@ -86,7 +86,7 @@ let makeStringFromArr = function (arr, till) {
     let str = ""
     for (i = 0; i<till; i++) {
         str += arr[i].trim()
-        if (i < len-1) {
+        if (i < till-1) {
             str += "."
         }
     }
