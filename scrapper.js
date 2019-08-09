@@ -1,6 +1,5 @@
 FOLDER_PATH = "/home/dgdev/workspace/web-spa"
 PATTERN_PATH1 = "/home/dgdev/workspace/web-spa/locales/en.yaml"
-PATTERN_PATH2 = "/home/dgdev/workspace/web-spa/locales/bn.yaml"
 
 let fs = require('fs')
 let Patt = require('./Patt')
